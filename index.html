@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          margin: 0;
+        }
+    
+        #registration-form {
+          text-align: center;
+          
+        }
+    
+        #saved-value {
+          margin-bottom: 15px;
+        }
+        #counter{
+            margin-top: 15px;
+        }
+      </style>
+</head>
+<body>
+    <div id="registration-form">
+        <div id="saved-value"></div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="Inserisci il tuo nome" required>
+      
+        <br><br>
+      
+        <button onclick="saveValue()">Salva</button>
+        <button onclick="removeValue()">Rimuovi</button>
+        <div id="counter"></div>
+      </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
