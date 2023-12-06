@@ -34,6 +34,8 @@ function saveValue() {
     updateCounter();
   });
 
+
+  
   function updateCounter() {
     let startTime = sessionStorage.getItem('start_time');
 
